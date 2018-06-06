@@ -37,11 +37,10 @@
                     <li>@Html.ActionLink("Categories", "Category", "Category")</li>
                 </ul>
             </div>
-            @TempData["Message"]
-            <b class="warning">@TempData["ErrorMessage"]</b>
         </div>
     </div>
-
+    @TempData["Message"]
+    <b class="warning">@TempData["ErrorMessage"]</b>
     <div class="container body-content">
         @RenderBody()
         <hr />

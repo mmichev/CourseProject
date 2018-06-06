@@ -50,6 +50,9 @@ namespace CourseProject.Controllers
                 repo.RegisterUser(user,model.Password);
                 LoginUserSession.Current.SetCurrentUser(user.ID, user.Username, user.Username == "admin");
                 TempData["Message"] = "successfully registered";
+
+
+                //TODO: Doesn't add to database
                 return RedirectToAction("Index", "Home");
 
             }
