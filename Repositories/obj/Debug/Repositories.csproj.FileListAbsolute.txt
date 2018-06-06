@@ -1,0 +1,14 @@
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\bin\Debug\Repositories.dll.config
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\bin\Debug\Repositories.dll
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\bin\Debug\Repositories.pdb
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\bin\Debug\DataAccess.dll
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\bin\Debug\EntityFramework.dll
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\bin\Debug\DataAccess.pdb
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\bin\Debug\DataAccess.dll.config
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\bin\Debug\EntityFramework.xml
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\obj\Debug\Repositories.csprojResolveAssemblyReference.cache
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\obj\Debug\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\obj\Debug\Repositories.dll
+C:\Users\Мариян\source\repos\MarkoProject\Repositories\obj\Debug\Repositories.pdb
