@@ -7,7 +7,7 @@ using DataAccess;
 
 namespace Repositories
 {
-    class CategoryRepository : BaseRepository<Category>
+    public class CategoryRepository : BaseRepository<Category>
     {
         public override void Save(Category item)
         {

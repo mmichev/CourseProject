@@ -8,7 +8,7 @@ using Repositories.Helpers;
 
 namespace Repositories
 {
-    class UserRepository : BaseRepository<User>
+    public class UserRepository : BaseRepository<User>
     {
         public override void Save(User item)
         {
