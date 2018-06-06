@@ -1,0 +1,9 @@
+C:\Users\Мариян\source\repos\MarkoProject\GamesDB\bin\Debug\GamesDB.dacpac
+C:\Users\Мариян\source\repos\MarkoProject\GamesDB\bin\Debug\GamesDB.dll
+C:\Users\Мариян\source\repos\MarkoProject\GamesDB\bin\Debug\GamesDB.pdb
+C:\Users\Мариян\source\repos\MarkoProject\GamesDB\obj\Debug\Model.xml
+C:\Users\Мариян\source\repos\MarkoProject\GamesDB\obj\Debug\refactor.xml
+C:\Users\Мариян\source\repos\MarkoProject\GamesDB\obj\Debug\postdeploy.sql
+C:\Users\Мариян\source\repos\MarkoProject\GamesDB\obj\Debug\predeploy.sql
+C:\Users\Мариян\source\repos\MarkoProject\GamesDB\obj\Debug\GamesDB.dll
+C:\Users\Мариян\source\repos\MarkoProject\GamesDB\obj\Debug\GamesDB.pdb
