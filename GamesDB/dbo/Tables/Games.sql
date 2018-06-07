@@ -4,6 +4,6 @@
     [DateOfPublishing] DATE           NOT NULL,
     [Category]         INT            NOT NULL,
     CONSTRAINT [PK_Games] PRIMARY KEY CLUSTERED ([ID] ASC),
-    CONSTRAINT [FK_Games_Categories] FOREIGN KEY ([Category]) REFERENCES [dbo].[Categories] ([ID])
+    CONSTRAINT [FK_Games_Categories] FOREIGN KEY ([Category]) REFERENCES [dbo].[Categories] ([ID]) ON DELETE CASCADE
 );
 
