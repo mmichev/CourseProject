@@ -1,0 +1,56 @@
+﻿@model CourseProject.Models.GameViewModel
+@using CourseProject.Helpers
+@using CourseProject.Models
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Edit Games</h2>
+
+<div class="table-actions">
+    @if (LoginUserSession.Current.IsAdministrator)
+    {
+        @Html.ActionLink("Add New Game", "EditGame", "Game", null, new { @class = "btn btn-primary btn-sm" })
+    }
+
+
+</div>
+
+<table class="table table-striped">
+
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Category</th>
+            <th>Date of release</th>
+            <th></th>
+            <th></th>
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        @foreach (GamesViewModel game in Model.gameList)
+        {
+            <tr>
+                <td>@game.ID</td>
+                <td>@game.Name</td>
+                <td>@game.GameCategory.Name</td>
+                <td>@game.DateOfRelease</td>
+
+                @if (LoginUserSession.Current.IsAdministrator)
+                {
+                    <td>@Html.ActionLink("Edit", "EditGame", "Game", new { id = game.ID }, new { @class = "btn btn-primary btn-sm" })</td>
+                    <td>@Html.ActionLink("Delete", "Delete", "Game", new { id = game.ID }, new { onclick = "return confirm('Are you sure you want to delete this game?');", @class = "btn btn-danger btn-sm" })</td>
+                }
+
+            </tr>
+        }
+
+    </tbody>
+
+</table>
+

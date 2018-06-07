@@ -43,6 +43,7 @@ namespace Repositories
         public void Create(T item)
         {
             Context.Set<T>().Add(item);
+            Context.SaveChanges();
         }
         public void Update(T item, Func<T, bool> findByIDPredecate)
         {
@@ -54,6 +55,7 @@ namespace Repositories
                 Context.Entry(local).State = EntityState.Detached;
             }
             Context.Entry(item).State = EntityState.Modified;
+            Context.SaveChanges();
         }
 
         public void Delete(T obj)
@@ -62,6 +64,7 @@ namespace Repositories
             {
                 Context.Set<T>().Remove(obj);
             }
+            Context.SaveChanges();
         }
 
         public void DeleteByID(int id)
@@ -71,6 +74,7 @@ namespace Repositories
             {
                 Context.Set<T>().Remove(dbItem);
             }
+            Context.SaveChanges();
         }
 
         public abstract void Save(T item);

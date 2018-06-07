@@ -26,7 +26,7 @@ namespace DataAccess
         }
     
         public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<Game> Games { get; set; }
         public virtual DbSet<User> Users { get; set; }
+        public virtual DbSet<Game> Games { get; set; }
     }
 }

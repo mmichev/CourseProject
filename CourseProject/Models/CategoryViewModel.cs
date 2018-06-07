@@ -14,8 +14,8 @@ namespace CourseProject.Models
 
         public CategoriesViewModel(int ID, string Name)
         {
-            ID = ID;
-            Name = Name;
+            this.ID = ID;
+            this.Name = Name;
         }
     }
     
